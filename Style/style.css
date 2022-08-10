@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS MENU*/
+
+.navbar-brand {
+    font-family: "Roboto Condensed", sans-serif;
+    padding-left: 70px;
+    font-size: 25px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #f09191f1;
+    z-index: 2;
+}
+
+.nav-pills {
+    padding-right: 70px;
+}
+
+.nav-link {
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+/* ESTILOS HEADER*/
+.img-header {
+    width: 100%;
+}
+
+/* SECCION SOBRE MI*/
+
+.titulo-sobreMi {
+    padding: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 4em;
+    margin-top: 1em;
+}
+
+.parrafo-sobreMi {
+    font-family: "Lato", sans-serif;
+    padding-left: 40px;
+    font-size: 1.5em;
+}
+
+.btn-sobreMi {
+    font-family: "Lato", sans-serif;
+    padding: 15px;
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: #9f2b00;
+    border-radius: 20px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* SECCION PROPIEDADES*/
+
+#scrollspyHeading3 {
+    height: 40rem;
+    background-color: #ef4452;
+    z-index: -1;
+}
+
+.titulo-propiedades {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+
+.img-propiedad {
+    width: 100%;
+}
+
+.img-propiedad img {
+    width: 500px;
+    padding-left: 100px;
+}
+/* SECCION FOOTER*/
+
+#scrollspyHeading4 {
+    height: 30em;
+    background-color: #5b1a02;
+}
+
+.footer-texto {
+    color: white;
+}
+
+.container-footer {
+    padding: 80px;
+}
